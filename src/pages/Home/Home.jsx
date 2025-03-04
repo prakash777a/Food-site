@@ -5,12 +5,12 @@ import './Home.css';
 
 
 const Home = () => {
-  const [category,setCategory]=useState("All");
+  const [category,setCategory]=useState();
   return (
     <div>
     <Header/>
     
-    <FoodDisplay category={category} />
+    <FoodDisplay/>
     
     </div>
   )
